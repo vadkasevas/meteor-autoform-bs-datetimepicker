@@ -18,7 +18,7 @@ AutoForm.addInputType("bootstrap-datetimepicker", {
   valueOut: function () {
     var m = null;
     try{
-    this.data("DateTimePicker").date();
+        m = this.data("DateTimePicker").date();
     }catch(e){
       console.log(e); 
     }
